@@ -12,5 +12,6 @@
 
 let age = prompt("How old are you");
 let message = age >= 18 ? "Allowed" : "Not allowed";
+alert(message);
 
 //DONE! the short way how to write if-else

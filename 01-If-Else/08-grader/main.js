@@ -5,7 +5,7 @@
 // - ถ้าคะแนน อยู่ระหว่าง 50 - 59 ได้ D
 // - ถ้าคะแนน น้อยกว่า 50 ได้ F
 
-let score = prompt("Enter your score : ");
+let score = prompt("Enter your score");
 if (score === null || score.trim() === "" || isNaN(score)) {
   alert("Invailid Number");
 } else if (score >= 80) {

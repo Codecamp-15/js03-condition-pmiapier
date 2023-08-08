@@ -12,15 +12,15 @@
 // } else {
 //   message = "";
 // }
-
-message =
-  login == "Employee"
+let login = prompt("Enter username ");
+let message =
+  login == "Employee" //if login == "Employee" then message = "Hello"
     ? "Hello"
-    : login === "Directore"
+    : login == "Director" //if login == "Director" then message = "Greetings"
     ? "Greetings"
-    : login == ""
+    : login == "" //if login == "" then message = "No login"
     ? "No login"
-    : "";
+    : ""; //otherwise message = ""
 alert(message);
 
-//DONE! the short way how to write if-else, the answer is wrong, but I don't know why
+//DONE! the short way how to write if-else

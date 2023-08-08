@@ -25,5 +25,7 @@ if (
 ) {
   alert("invaild number");
 } else {
-  alert("");
+  alert(num1 + num2);
 }
+
+//Done!
